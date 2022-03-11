@@ -1,0 +1,186 @@
+body{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+
+    background-color:#012340;
+}
+#form-1{
+    top: 10%;
+    left: 80%;
+    z-index: 1;
+    position: absolute;
+    width: 310px;
+    height: 310px;
+    border-radius:30% 70% 70% 30% / 30% 51% 49% 70% ;
+    background: rgb(0,8,125);
+    background: linear-gradient(56deg, rgba(0,8,125,1) 0%, rgba(215,22,187,1) 52%, rgba(0,212,255,1) 100%);
+
+    filter: blur(30px);
+}
+#form-2{
+    top: 40%;
+    left: 5%;
+    z-index: 1;
+    position: absolute;
+    width: 310px;
+    height: 310px;
+    border-radius:51% 49% 70% 30% / 91% 13% 87% 9% ;
+    background: rgb(2,89,57);
+    background: linear-gradient(56deg, rgba(2,89,57,1) 0%, rgba(0,8,125,1) 50%, rgba(4,217,57,1) 100%);
+    filter: blur(50px);
+}
+#form-3{
+    top: 75%;
+    left: 65%;
+    z-index: 1;
+    position: absolute;
+    width: 310px;
+    height: 310px;
+    border-radius:28% 72% 10% 90% / 41% 57% 43% 59%  ;
+    background: rgb(114,237,192);
+    background: linear-gradient(56deg, rgba(114,237,192,1) 0%, rgba(226,255,0,1) 50%, rgba(62,0,22,1) 100%);
+    filter: blur(30px);
+}
+#form-4{
+    top: 0%;
+    left: 40%;
+    z-index: 1;
+    position: absolute;
+    width: 310px;
+    height: 310px;
+    border-radius:77% 23% 16% 84% / 56% 48% 52% 44% ;
+    background: rgb(131,58,180);
+    background: linear-gradient(180deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    filter: blur(30px);
+}
+label{
+    font-size: 25px;
+    margin-bottom: 30px;
+    color: aliceblue;
+}
+
+
+
+
+
+i {
+    position: absolute;
+    right: 15px;
+    top: 17px;
+    cursor: pointer;
+    font-size: 18px;
+    color: rgb(31, 31, 31);
+    
+}
+
+
+input {
+    width: 240px;
+    height: 50px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    border: 1px solid aliceblue;
+    background-color: rgba(99, 99, 99, 0.288);
+    color: aliceblue;
+    font-size: 16px;
+    text-align: center;
+    
+}
+input:focus {
+    outline-style: solid;
+    outline-color: rgba(252,176,69,1);
+    outline-width: 5px;
+    border: none;
+}
+
+::placeholder {
+    color: aliceblue;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+
+
+
+button {
+    width: 120px;
+    height: 40px;
+    color: aliceblue;
+    background-color: #012340;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+
+    margin-top: 20px;
+
+    transition: all 150ms linear;
+}
+button:hover {
+    transition: all 100ms linear;
+    transform: scale(1.1);
+}
+
+
+.label-text {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#register-container{
+    z-index: 2;
+    width: 500px;
+    height: auto;
+    display: grid;
+    background-color: transparent;
+    justify-content: center;
+    padding-bottom: 40px;
+    padding-top: 40px;
+
+    background: rgba( 255, 255, 255, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba(93, 97, 158, 0.37);
+    backdrop-filter: blur( 18px );
+    -webkit-backdrop-filter: blur( 12px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );  
+}
+.button-container {
+    margin: 0 auto;
+    
+}
+
+.first-password-input{
+    position: relative;
+}
+
+.second-password-input {
+    position: relative;
+    
+}
+.error-handler{
+    
+    display: flex;
+    width: 240px;
+    height: 70px;
+    background-color: rgba(206, 206, 49, 0.658);
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+.error-handler p {
+    color: rgb(136, 0, 0);
+    font-size: 18px;
+}
+#repeat-password{
+    margin-bottom: 0;
+}

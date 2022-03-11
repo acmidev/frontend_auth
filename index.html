@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Auth Test</title>
+</head>
+<body>
+        <div id="form-1"></div>
+        <div id="form-2"></div>
+        <div id="form-3"></div>
+        <div id="form-4"></div>
+    <div id="container">
+        
+        <div id="register-container">
+            <div class="email-label label-text"><label for="email">Email</label></div>
+            <div class="email-input"><input type="email" id="email" placeholder="vibing@email.world" ></div>
+            <div class="pass-container">
+                <div class="password-label label-text"><label for="password">Password</label></div>
+                <div class="first-password-input"><input type="password" placeholder="********" id="password"><i class="fa-solid fa-eye show-password"></i></div>
+                <div class="repeat-password-label label-text"><label for="repeat-password">Repeat Password</label></div>
+                <div class="second-password-input"><input type="password" placeholder="********" id="repeat-password"><i class="fa-solid fa-eye show-password"></i></div>
+                <div class="error-handler">
+                    <p id="error"></p>
+                </div>
+            </div>
+            <div class="button-container"><button id="register">Register</button></div>
+            
+        </div>
+    </div>
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
